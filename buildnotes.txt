@@ -1,0 +1,2 @@
+3/2/22-to fix the gallery from original code I needed to change the names of images
+and the name/checked name of the input

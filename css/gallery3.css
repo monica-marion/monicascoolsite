@@ -1,0 +1,126 @@
+
+* {
+box-sizing: border-box;
+}
+
+img {
+max-width: 100%;
+vertical-align: top;
+}
+
+.gallery {
+display: flex;
+margin: 10px auto;
+max-width: 600px;
+position: relative;
+padding-top: 26.6666666667%;
+}
+@media screen and (min-width: 600px) {
+.gallery {
+  padding-top: 500px;
+}
+}
+.gallery__img {
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: opacity 0.3s ease-in-out;
+}
+.gallery__thumb {
+padding-top: 6px;
+margin: 6px;
+display: block;
+}
+.gallery__selector {
+position: absolute;
+opacity: 0;
+visibility: hidden;
+}
+.gallery__selector:checked + .gallery__img {
+opacity: 1;
+}
+.gallery__selector:checked ~ .gallery__thumb > img {
+box-shadow: 0 0 0 3px #0be2f6;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/titanone/v11/mFTzWbsGxbbS_J5cQcjCmjgm-khyk-RW.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/titanone/v11/mFTzWbsGxbbS_J5cQcjClDgm-khykw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+h1{
+	background:#fff;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	display:flex;
+	font-family:'Titan One';
+	font-size:70px;
+	font-weight:700;
+	flex-flow:row wrap;
+	align-content:center;
+  text-align:center;
+	justify-content:center
+	}
+
+h1 span{width:100%;position:relative}
+
+h1 span:before{
+	background:linear-gradient(to bottom right, Aquamarine, DarkTurquoise);
+	width:100%;
+	height:100%;
+	display:block;
+	position:absolute;
+	content:"";
+	mix-blend-mode:screen
+	}
+
+  h2 {
+    text-align: left;
+    margin-left: 100px;
+    font-family: 'Titan One';
+    }
+
+  p {
+    text-align: left;
+    margin-left: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+    }
+
+  .enter {
+    top:50%;
+  	left:50%;
+    }
+
+  .footer{
+     position: fixed;
+     text-align: center;
+     bottom: 0px;
+     width: 100%;
+     }
+
+  a {font-size:150%;}
+  a:link {text-decoration:none;}
+  a:visited {text-decoration:none;}
+  a:hover {text-decoration:underline;}
+
+
+/* css from https://codepen.io/Lubna/pen/MWapdjE */
