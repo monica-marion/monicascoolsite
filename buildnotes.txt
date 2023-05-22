@@ -1,3 +1,4 @@
 3/2/22-to fix the gallery from original code I needed to change the names of images
 and the name/checked name of the input
 7/5/23-added a new playlist, remembered how to edit
+-note that the site is connected to a github repo and hosted through AWS Amplify. I had to reconnect the github repository both to my local repo (by making a new authentication token) and to Amplify (by logging in to AWS and following their instructions)
