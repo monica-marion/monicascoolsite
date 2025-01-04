@@ -1,0 +1,20 @@
+permalink: /feed.xml
+
+<!-- Dates in RSS are weird. They use a format that comes from RFC822
+which is not in wide circulation anymore. It's also a bit underspecified in general.
+ All numbers are 2-digit with leading 0s and hours is 24-hour format. -->
+
+---
+<rss version="2.0">
+    <channel>
+        <title>monicascoolsite blog</title>
+        <link>https://monicascoolsite.com</link>
+        <description>Monica's art updates</description>
+        <language>en-us</language>
+            <item>
+                <title>Jan 3 2025</title>
+                <link>https://monicascoolsite.com/blog/250103</link>
+                <pubDate>Sat, 04 Jan 2025 08:00:00 EST</pubDate>
+            </item>
+    </channel>
+</rss>
