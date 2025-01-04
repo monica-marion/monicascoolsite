@@ -1,4 +1,4 @@
-permalink: /feed.xml
+<!-- permalink: /feed.xml -->
 
 <!-- Dates in RSS are weird. They use a format that comes from RFC822
 which is not in wide circulation anymore. It's also a bit underspecified in general.
